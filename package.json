@@ -1,0 +1,25 @@
+{
+  "name": "vue-ruler",
+  "version": "1.0.0",
+  "description": "vue2 ruler UIKIT mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OPY-bbt/vue-ruler.git"
+  },
+  "keywords": [
+    "vue2",
+    "ruler",
+    "UIKIT",
+    "mobile"
+  ],
+  "author": "zy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OPY-bbt/vue-ruler/issues"
+  },
+  "homepage": "https://github.com/OPY-bbt/vue-ruler#readme"
+}
