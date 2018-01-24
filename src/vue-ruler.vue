@@ -123,8 +123,8 @@ export default {
 
       return translate;
     },
-    doOnValueChange () {
-      var value = this.currentValue;
+    doOnValueChange (idx) {
+      var value = idx !== undefined ? idx : this.currentValue;
       var wrapper = this.$refs.wrapper;
 
       translateUtil.translateElement(wrapper, this.value2Translate(value), null);
@@ -168,6 +168,8 @@ export default {
   }
   .sticks{
     width: max-content;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
     position: relative;
     height: 124px;
     left: 0px;
@@ -179,7 +181,6 @@ export default {
     position: relative;
     width: 24px;
     height: 56px;
-    /* background-color: #c2c2c2; */
     box-sizing: border-box;
     border-right: 2px solid #c2c2c2;
   }
