@@ -29,7 +29,16 @@ var webpackConfig = merge(baseWebpackConfig, {
     publicPath: config.bundle.assetsPublicPath,
     filename: 'ruler.min.js',
     library: 'ruler',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    umdNamedDefine: true    // 是否将模块名称作为 AMD 输出的命名空间
+  },
+  externals: {
+    vue: {
+      root: 'Vue',
+      commonjs: 'vue',
+      commonjs2: 'vue',
+      amd: 'vue'
+    }
   },
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
