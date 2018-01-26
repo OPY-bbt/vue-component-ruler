@@ -16,7 +16,7 @@ Register the component
 
 ```js
 import Vue from 'vue'
-import vSelect from 'vue-component-ruler'
+import Ruler from 'vue-component-ruler'
 import 'vue-component-ruler/dist/ruler.min.css';
 ```
 
