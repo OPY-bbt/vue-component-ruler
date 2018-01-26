@@ -1,6 +1,6 @@
 {
   "name": "vue-component-ruler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue2 ruler UIKIT mobile",
   "main": "dist/ruler.min.js",
   "private": false,
@@ -71,7 +71,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OPY-bbt/vue-ruler.git"
+    "url": "git+https://github.com/OPY-bbt/vue-component-ruler.git"
   },
   "keywords": [
     "vue2",
@@ -82,9 +82,9 @@
   "author": "zy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OPY-bbt/vue-ruler/issues"
+    "url": "https://github.com/OPY-bbt/vue-component-ruler/issues"
   },
-  "homepage": "https://github.com/OPY-bbt/vue-ruler#readme",
+  "homepage": "https://github.com/OPY-bbt/vue-component-ruler#readme",
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
