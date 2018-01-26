@@ -28,10 +28,10 @@ You may now use the component in your markup
 
 ## Basic Usage
 
-#### props range [int]
+#### props range [Array]
 set the range of ruler
 
-#### props onchange [func]
+#### props onchange [Function]
 will be triggered when value change
 
 #### if you want to change value actively, use ref
