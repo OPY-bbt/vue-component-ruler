@@ -29,7 +29,7 @@ You may now use the component in your markup
 ## Basic Usage
 
 #### props range [Array]
-set the range of ruler
+set the range of ruler, for example: [0, 300]
 
 #### props onchange [Function]
 will be triggered when value change
