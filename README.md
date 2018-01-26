@@ -23,7 +23,7 @@ import 'vue-component-ruler/dist/ruler.min.css';
 You may now use the component in your markup
 
 ```html
-<Ruler @onchange="onBsChange" ref="refSlideValue" :range="range"/>
+<Ruler @onchange="onChange" ref="Ruler" :range="range"/>
 ```
 
 ## Basic Usage
