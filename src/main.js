@@ -1,2 +1,2 @@
-import VueMarquee from './vue-ruler.vue'
-export default VueMarquee;
+import Ruler from './components/vue-ruler.vue'
+export default Ruler;

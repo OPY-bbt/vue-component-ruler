@@ -69,6 +69,11 @@ export default {
 
           velocityTranslate = translate - prevTranslate || translate;
           prevTranslate = translate;
+
+          // change the value
+          const dragRange = dragState.range;
+          const translateTimely = Math.max(Math.min(translate, dragRange[1]), dragRange[0]);
+          this.currentValue = this.translate2Value(translateTimely);
         },
 
         end: (event) => {
