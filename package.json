@@ -1,9 +1,10 @@
 {
-  "name": "my-project",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "name": "vue-component-ruler",
   "author": "ZhangYan <zhangyan@highwho.com>",
-  "private": true,
+  "version": "1.0.5",
+  "description": "vue2 ruler UIKIT mobile",
+  "main": "dist/ruler.min.js",
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
