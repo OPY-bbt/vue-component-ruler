@@ -1,7 +1,7 @@
 {
   "name": "vue-component-ruler",
   "author": "ZhangYan",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "vue2 ruler UIKIT mobile",
   "main": "dist/ruler.min.js",
   "private": false,
