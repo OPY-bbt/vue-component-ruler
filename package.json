@@ -1,6 +1,6 @@
 {
   "name": "vue-component-ruler",
-  "author": "ZhangYan <zhangyan@highwho.com>",
+  "author": "ZhangYan",
   "version": "1.0.6",
   "description": "vue2 ruler UIKIT mobile",
   "main": "dist/ruler.min.js",
@@ -69,5 +69,20 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OPY-bbt/vue-component-ruler.git"
+  },
+  "keywords": [
+    "vue2",
+    "ruler",
+    "UIKIT",
+    "mobile"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OPY-bbt/vue-component-ruler/issues"
+  },
+  "homepage": "https://github.com/OPY-bbt/vue-component-ruler#readme"
 }
